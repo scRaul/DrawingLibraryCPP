@@ -7,7 +7,7 @@
 enum DRAW_TYPE{
     POINT,LINE,BEZIER,BSPLINE
 };
-
+//Helper class to draw points, lines and curves, refrences a PPM object
 class Canvas{
     
 public:
