@@ -4,6 +4,8 @@
 #include <cmath>
 using std::cout;
 using std::string;
+
+//Vector and Matrix structures, used for simple vector transfomations 
 struct vec4{
     float x;
     float y;
