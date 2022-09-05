@@ -34,7 +34,7 @@ int main(){
     canvas.draw(DRAW_TYPE::BSPLINE,getTransCopy(1.25*spacing,points),c);
     c.b = 255;
 
-
+    //index for the png, file will be saved as index.png
     ppm.createImage(3);
     return 0;
 }
